@@ -34,6 +34,6 @@ class ProxySpider(CrawlSpider):
                 ip = tds[0] + ':' + tds[1]
                 type = tds[3]
             item['ip'] = ip
-            item['type'] = type
+            # item['type'] = type
             items.append(item)
         return items

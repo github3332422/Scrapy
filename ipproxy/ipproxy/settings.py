@@ -28,7 +28,7 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = random.randint(5,15)
+DOWNLOAD_DELAY = random.randint(5,60)
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -68,6 +68,7 @@ DOWNLOADER_MIDDLEWARES = {
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    'ipproxy.pipelines.MongoPipeline': 300,
+   'ipproxy.pipelines.RedisPipeline':300
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -94,3 +95,8 @@ ITEM_PIPELINES = {
 #MongoDb 数据库
 MONGO_URI = 'mongodb://localhost:27017'
 MONGO_DATABASE = 'ipProxy'
+
+# redis 配置
+REDIS_HOST = '127.0.0.1'
+REDIS_PORT = 6379
+REDIS_DB_INDEX = 5

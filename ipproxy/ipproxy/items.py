@@ -10,4 +10,4 @@ import scrapy
 
 class IpproxyItem(scrapy.Item):
     ip = scrapy.Field()
-    type = scrapy.Field()
+    # type = scrapy.Field()
