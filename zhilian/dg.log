@@ -1,0 +1,54 @@
+2019-04-18 16:41:37 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: zhilian)
+2019-04-18 16:41:37 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.4 |Anaconda, Inc.| (default, Jan 16 2018, 10:22:32) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.0.2n  7 Dec 2017), cryptography 2.1.4, Platform Windows-10-10.0.17763-SP0
+2019-04-18 16:41:37 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'zhilian', 'LOG_FILE': 'dg.log', 'NEWSPIDER_MODULE': 'zhilian.spiders', 'SPIDER_MODULES': ['zhilian.spiders']}
+2019-04-18 16:41:37 [scrapy.extensions.telnet] INFO: Telnet Password: 4e2eb73f974c9ddc
+2019-04-18 16:41:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-18 16:41:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-18 16:41:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-18 16:41:37 [scrapy.middleware] INFO: Enabled item pipelines:
+['zhilian.pipelines.ZhilianzhaopinPipeline']
+2019-04-18 16:41:37 [scrapy.core.engine] INFO: Spider opened
+2019-04-18 16:41:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-18 16:41:37 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-18 16:41:38 [scrapy.core.engine] DEBUG: Crawled (403) <GET https://www.zhipin.com/c101010100-p100109/?page=0> (referer: None)
+2019-04-18 16:41:38 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <403 https://www.zhipin.com/c101010100-p100109/?page=0>: HTTP status code is not handled or not allowed
+2019-04-18 16:41:38 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-18 16:41:38 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 239,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 1653,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/403': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 18, 8, 41, 38, 140428),
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/403': 1,
+ 'log_count/DEBUG': 1,
+ 'log_count/INFO': 10,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2019, 4, 18, 8, 41, 37, 714880)}
+2019-04-18 16:41:38 [scrapy.core.engine] INFO: Spider closed (finished)
