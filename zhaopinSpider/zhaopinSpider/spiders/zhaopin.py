@@ -24,21 +24,22 @@ class ZhaopinSpider(scrapy.Spider):
         初始换爬取地址，取关键词组成爬取初始地址
         :return: url
         '''
-        # with open('keywords.json', 'r') as f:
-        #     keywords_list = json.load(f)
-        #
-        # start_urls = []
-        #
-        # for item in keywords_list:
-        #     for job_key in item['Job_keywords']:
-        #         start_urls.append(self.baseUrl.format(str(self.offset), job_key))
-        # # print(start_urls)
-        # if start_urls is not None:
-        #     for url in start_urls:
-        #         print("start_url:", url)
-        #         yield scrapy.Request(url=url, callback=self.parse, meta={'start_url': url})
-        url = 'https://fe-api.zhaopin.com/c/i/sou?start=0&pageSize=90&cityId=489&kw=工艺工程师&kt=3'
-        yield scrapy.Request(url=url, callback=self.parse, meta={'start_url': url})
+        with open('keywords.json', 'r') as f:
+            keywords_list = json.load(f)
+
+        start_urls = []
+
+        for item in keywords_list:
+            for job_key in item['Job_keywords']:
+                start_urls.append(self.baseUrl.format(str(self.offset), job_key))
+        print(start_urls)
+
+        if start_urls is not None:
+            for url in start_urls:
+                print("start_url:", url)
+                yield scrapy.Request(url=url, callback=self.parse, meta={'start_url': url})
+        # url = 'https://fe-api.zhaopin.com/c/i/sou?start=0&pageSize=90&cityId=489&kw=工艺工程师&kt=3'
+        # yield scrapy.Request(url=url, callback=self.parse, meta={'start_url': url})
 
     def parse(self, response):
         '''

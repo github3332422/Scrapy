@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for zhaopinSpider project
+# Scrapy settings for ipSpider project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -8,16 +8,15 @@
 #     https://doc.scrapy.org/en/latest/topics/settings.html
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-import random
 
-BOT_NAME = 'zhaopinSpider'
+BOT_NAME = 'ipSpider'
 
-SPIDER_MODULES = ['zhaopinSpider.spiders']
-NEWSPIDER_MODULE = 'zhaopinSpider.spiders'
+SPIDER_MODULES = ['ipSpider.spiders']
+NEWSPIDER_MODULE = 'ipSpider.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'zhaopinSpider (+http://www.yourdomain.com)'
+#USER_AGENT = 'ipSpider (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -28,7 +27,7 @@ ROBOTSTXT_OBEY = False
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = random.randint(5,18)
+DOWNLOAD_DELAY = 3
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -40,22 +39,23 @@ DOWNLOAD_DELAY = random.randint(5,18)
 #TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
-#DEFAULT_REQUEST_HEADERS = {
-#   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-#   'Accept-Language': 'en',
-#}
+DEFAULT_REQUEST_HEADERS = {
+  'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'Accept-Language': 'en',
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36'
+}
 
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'zhaopinSpider.middlewares.ZhaopinspiderSpiderMiddleware': 543,
+#    'ipSpider.middlewares.IpspiderSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-DOWNLOADER_MIDDLEWARES = {
-   'zhaopinSpider.middlewares.UserAgentDownloadMiddleware': 543,
-}
+#DOWNLOADER_MIDDLEWARES = {
+#    'ipSpider.middlewares.IpspiderDownloaderMiddleware': 543,
+#}
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
@@ -66,17 +66,8 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'zhaopinSpider.pipelines.ZhaopingPipeline': 300,
-   # 'zhaopinSpider.pipelines.KeywordsPipline': 300,
+   'ipSpider.pipelines.MongoPipeline': 300,
 }
-
-#monogodb本机连接地址
-MONGO_URI = 'mongodb://localhost:27017'
-MONGODB_HOST='127.0.0.1'
-#端口号
-MONGODB_PORT=27017
-#设置数据库名称
-MONGODB_DBNAME='招聘'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
@@ -99,3 +90,6 @@ MONGODB_DBNAME='招聘'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
+#MongoDb 数据库
+MONGO_URI = 'mongodb://localhost:27017'
+MONGO_DATABASE = 'ip'

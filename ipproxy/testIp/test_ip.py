@@ -27,7 +27,7 @@ def main():
             print(t.decode('UTF-8'),'NO')
 
 if __name__ == '__main__':
-    for i in range(0,50):
+    for i in range(0,500):
         s = str('pro_' + str(i))
         s = Process(main())
         s.start()
