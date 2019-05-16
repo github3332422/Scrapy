@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import scrapy
 
+from doubanSpider.items import DoubanspiderItem
+
 
 class DoubanSpider(scrapy.Spider):
     name = 'douban'
@@ -18,25 +20,28 @@ class DoubanSpider(scrapy.Spider):
 
     def parse(self, response):
         lis = response.xpath('//ol[@class="grid_view"]/li')
+        items = []
         for li in lis:
+            item = DoubanspiderItem()
             lis = li.xpath('.//span[@class="title"]//text()')
             if len(lis) > 0 :
                 name = lis.extract()[0]
             else:
                 name = ""
-
+            item['name'] = name
             lis = li.xpath('.//span[@class="rating_num"]//text()')
             if len(lis) > 0 :
                 score = lis.extract()[0]
             else:
                 score = ""
-
+            item['score'] = score
             lis = li.xpath('.//span[@class="inq"]//text()')
             if len(lis) > 0:
                 context = lis.extract()[0]
             else:
                 context = ""
-            print(name,score,context)
+            item['context'] = context
+            yield item
         next_url = response.xpath('//span[@class="next"]/a/@href').extract()
 
         # 判断是否还有下一页数据，如果有就继续爬，直到爬取完最后一页

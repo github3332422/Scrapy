@@ -13,7 +13,7 @@ class DoubanspiderPipeline(object):
 
 class MongoPipeline(object):
 
-    collection_name = 'movies250'
+    collection_name = 'mov'
 
     def __init__(self, mongo_uri, mongo_db):
         self.mongo_uri = mongo_uri

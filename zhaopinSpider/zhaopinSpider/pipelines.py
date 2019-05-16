@@ -10,7 +10,7 @@ from scrapy import settings
 
 
 class ZhaopingPipeline(object):
-    collection_name = 'message'
+    collection_name = 'data'
 
     def __init__(self, mongo_uri, mongo_db):
         self.mongo_uri = mongo_uri
