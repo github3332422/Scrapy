@@ -1,0 +1,12 @@
+该目录用来存放输入数据
+
+Deeplearning 深度学习
+algorithm 算法工程师
+Datadevelopment 数据开发
+DataAnalyst 数据分析师
+Dataarchitecture 数据架构师
+artificialintelligence 人工智能
+Blockchain 区块链
+
+
+population 全国人口热力图
