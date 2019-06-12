@@ -67,7 +67,8 @@ DOWNLOADER_MIDDLEWARES = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'doubanSpider.pipelines.MongoPipeline': 300,
+   # 'doubanSpider.pipelines.MongoPipeline': 300,
+    'doubanSpider.pipelines.CsvPipeline':300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

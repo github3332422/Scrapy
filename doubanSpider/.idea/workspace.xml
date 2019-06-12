@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0585fb2-a589-4ad5-ba72-2d5e804cc767" name="Default" comment="" />
+    <list default="true" id="f0585fb2-a589-4ad5-ba72-2d5e804cc767" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/keywords.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/36.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/37.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/38.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/9.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/picture/0.jpg" afterPath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/picture/0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doubanSpider/pipelines.py" afterPath="$PROJECT_DIR$/doubanSpider/pipelines.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doubanSpider/settings.py" afterPath="$PROJECT_DIR$/doubanSpider/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zhaopinSpider/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../zhaopinSpider/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/Test/Pandas.py" afterPath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/Test/Pandas.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/爬取百度图片.py" afterPath="$PROJECT_DIR$/../zhaopinSpider/zhaopinSpider/Analyst/spider/爬取百度图片.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,18 +66,52 @@
       <file leaf-file-name="doubanCrawlSpider.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doubanSpider/spiders/doubanCrawlSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="-405">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="douban.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="douban.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doubanSpider/spiders/douban.csv">
+          <provider editor-type-id="csv-text-editor">
+            <state relative-caret-position="632">
+              <caret line="231" column="45" lean-forward="true" selection-start-line="231" selection-start-column="45" selection-end-line="231" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="6">
+              <column index="0" width="100" />
+              <column index="1" width="100" />
+              <column index="2" width="100" />
+              <column index="3" width="100" />
+              <column index="4" width="100" />
+              <column index="5" width="100" />
+              <column index="6" width="100" />
+              <column index="7" width="100" />
+              <column index="8" width="100" />
+              <column index="9" width="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doubanSpider/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2670">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="douban.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doubanSpider/spiders/douban.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1138">
-              <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            <state relative-caret-position="665">
+              <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -49,8 +132,21 @@
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/doubanSpider/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="432">
+              <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="17" />
+              <folding>
+                <element signature="e#193#207#0" expanded="true" />
+                <element signature="e#388#1059#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doubanSpider/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-756">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,14 +154,19 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/doubanSpider/test/test.py" />
         <option value="$PROJECT_DIR$/doubanSpider/items.py" />
         <option value="$PROJECT_DIR$/doubanSpider/spiders/doubanCrawlSpider.py" />
-        <option value="$PROJECT_DIR$/doubanSpider/pipelines.py" />
         <option value="$PROJECT_DIR$/doubanSpider/spiders/douban.py" />
+        <option value="$PROJECT_DIR$/doubanSpider/pipelines.py" />
+        <option value="$PROJECT_DIR$/doubanSpider/settings.py" />
+        <option value="$PROJECT_DIR$/doubanSpider/spiders/douban.csv" />
       </list>
     </option>
   </component>
@@ -81,6 +182,7 @@
     <option name="width" value="1134" />
     <option name="height" value="670" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -105,6 +207,17 @@
               <item name="doubanSpider" type="b2602c69:ProjectViewProjectNode" />
               <item name="doubanSpider" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="doubanSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubanSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="doubanSpider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doubanSpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doubanSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="doubanSpider" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -113,7 +226,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Case" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -167,12 +280,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15506808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16187595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -202,6 +316,147 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/doubanSpider/spiders/doubanCrawlSpider.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/spiders/douban.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="17" />
+          <folding>
+            <element signature="e#193#207#0" expanded="true" />
+            <element signature="e#388#1059#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="70" column="45" lean-forward="true" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/spiders/douban.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="6">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+          <column index="2" width="100" />
+          <column index="3" width="100" />
+          <column index="4" width="100" />
+          <column index="5" width="100" />
+          <column index="6" width="100" />
+          <column index="7" width="100" />
+          <column index="8" width="100" />
+          <column index="9" width="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/spiders/doubanCrawlSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#193#207#0" expanded="true" />
+            <element signature="e#388#1059#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/spiders/douban.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="48" column="70" lean-forward="true" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/spiders/doubanCrawlSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#193#207#0" expanded="true" />
+            <element signature="e#388#1059#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/spiders/douban.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/spiders/doubanCrawlSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="29" />
           <folding />
@@ -220,7 +475,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="e#193#207#0" expanded="true" />
+            <element signature="e#388#1059#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -249,36 +507,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doubanSpider/settings.py">
+    <entry file="file://$PROJECT_DIR$/doubanSpider/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1215">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="432">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="17" />
+          <folding>
+            <element signature="e#193#207#0" expanded="true" />
+            <element signature="e#388#1059#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doubanSpider/spiders/doubanCrawlSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="-405">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doubanSpider/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/doubanSpider/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="-2670">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-756">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/doubanSpider/spiders/douban.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1138">
-          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        <state relative-caret-position="665">
+          <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doubanSpider/spiders/douban.csv">
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="632">
+          <caret line="231" column="45" lean-forward="true" selection-start-line="231" selection-start-column="45" selection-end-line="231" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="6">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+          <column index="2" width="100" />
+          <column index="3" width="100" />
+          <column index="4" width="100" />
+          <column index="5" width="100" />
+          <column index="6" width="100" />
+          <column index="7" width="100" />
+          <column index="8" width="100" />
+          <column index="9" width="100" />
         </state>
       </provider>
     </entry>

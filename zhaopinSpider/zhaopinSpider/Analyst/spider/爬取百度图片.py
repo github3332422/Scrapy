@@ -14,7 +14,7 @@ def getImg(html):
     imglist = re.findall(imgre, html)
     x = 0
     for imgurl in imglist:
-        urllib.request.urlretrieve(imgurl, '%s.jpg' % x)
+        urllib.request.urlretrieve(imgurl, '../picture/%s.jpg' % x)
         x += 1
         print('Getting the %s picture' % x)
     reg = r'<a rel="noreferrer"  class="thumbnail vpic_wrap"><img .*? data-original="(.*?)"'
@@ -24,9 +24,8 @@ def getImg(html):
     # print(imglist)
     # for im in imglist:
     #     print(im)
-    x = 6
     for imgurl in imglist:
-        urllib.request.urlretrieve(imgurl,'%s.jpg' % x)
+        urllib.request.urlretrieve(imgurl,'../picture/%s.jpg' % x)
         x+=1
         print('Getting the %s picture' % x)
 html = getHtml("https://tieba.baidu.com/p/2460150866?pn=3")
